@@ -23,7 +23,9 @@ export default function Demo() {
       description: "This is a very good app that does a lot of useful stuff. ",
     })
       .then(() => {
-        alert("App installed successfully or the install instruction was shown");
+        alert(
+          "App installed successfully or the install instruction was shown"
+        );
       })
       .catch(() => alert("App not installed, user opted out. "));
   };
